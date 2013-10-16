@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <title>by2.be webontwikkeling</title>
+    <!-- Bootstrap core CSS -->
+    <link href='stylesheets/bootstrap.css' rel='stylesheet'>
+    <!-- Custom CSS for the 'Business Frontpage' Template -->
+    <link href='stylesheets/business-frontpage.css' rel='stylesheet'>
+  </head>
+  <body>
+    <nav class='navbar navbar-fixed-top navbar-default' role='navigation'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-ex1-collapse' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand' href='index.html'>by2.be bvba</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class='collapse navbar-collapse navbar-ex1-collapse'>
+          <ul class="nav navbar-nav">
+            <li>
+            <a href="/contact.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <div class='business-header'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-lg-12'>
+            <!-- The background image is set in the custom CSS -->
+            <h1 class='tagline'>
+              Nood aan een duidelijk antwoord?
+            </h1>
+            <p>
+              We helpen je verder met advies, tips of een conctreet voorstel. Of we brengen je in contact met de juiste mensen.
+            </p>
+            
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <hr>
+      <div class='row'>
+  <div class='col-md-6'>
+    <h4>Hoe kunnen we je helpen?</h4>
+    <p class='text-muted'>
+      <small>
+        Gebruik onderstaand formulier of
+        <a href='mailto:team@by2.be'>e-mail</a>
+        ons. We vinden spam zelf ook vervelend. We bestoken je nadien dus niet met e-mails.
+      </small>
+    </p>
+    <form action='http://getsimpleform.com/messages?form_api_token=3c22a62f553217ac178401ed280b3619' method='post' role='form'>
+      <div class='form-group'>
+        <input class='form-control' name='naam' placeholder='naam' type='text'>
+      </div>
+      <div class='form-group'>
+        <input name='redirect_to' type='hidden' value='http://localhost:4000/contact.html#bedankt'>
+        <input class='form-control' name='e-mail' placeholder='e-mail' type='email'>
+      </div>
+      <div class='form-group'>
+        <textarea class='form-control' name='bericht' placeholder='bericht' rows='5' type='text'></textarea>
+      </div>
+      <button class='btn btn-default' type='submit'>Bericht versturen</button>
+      <span class='text-success hidden' id='thank-you'>Het bericht werd verstuurd. Bedankt!</span>
+    </form>
+  </div>
+  <div class='col-md-6'>
+    <a href='http://goo.gl/maps/uQRyu'>
+      <img class='img-responsive' src='/images/map.png'>
+    </a>
+  </div>
+</div>
+
+      <hr>
+      <footer>
+        <div class='row'>
+          <div class='col-lg-12'>
+            <p>by2.be bvba &middot; Rubenslaan 25 &middot; 8310 Brugge</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Don't forget to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src='js/jquery.js'></script>
+    <script src='js/bootstrap.js'></script>
+    <script src='js/application.js'></script>
+  </body>
+</html>
